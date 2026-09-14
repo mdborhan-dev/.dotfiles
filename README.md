@@ -8,6 +8,7 @@ My personal Linux configuration files.
 - Neovim / LazyVim
 - Starship
 - Zsh
+- Fastfetch
 
 ## Structure
 
@@ -17,6 +18,7 @@ dotfiles/
 ├── nvim/
 ├── starship/
 ├── zsh/
+├── fastfetch/
 ├── install.sh
 ├── README.md
 └── .gitignore
@@ -63,6 +65,14 @@ mv ~/.config/starship.toml ~/.config/starship.toml.backup 2>/dev/null
 ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml
 ```
 
+### Fastfetch
+
+```bash
+mkdir -p ~/.config
+mv ~/.config/fastfetch ~/.config/fastfetch.backup 2>/dev/null
+ln -s ~/dotfiles/fastfetch ~/.config/fastfetch
+```
+
 ### Zsh
 
 ```bash
@@ -84,6 +94,7 @@ The repository is the source of truth for the configuration files.
 ~/.config/kitty         -> ~/dotfiles/kitty
 ~/.config/nvim          -> ~/dotfiles/nvim
 ~/.config/starship.toml -> ~/dotfiles/starship/starship.toml
+~/.config/fastfetch   -> ~/dotfiles/fastfetch
 ~/.zshrc                -> ~/dotfiles/zsh/.zshrc
 ```
 

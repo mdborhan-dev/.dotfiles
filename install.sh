@@ -56,6 +56,11 @@ link_dir \
   "$DOTFILES/nvim" \
   "$HOME/.config/nvim"
 
+# Fastfetch
+link_dir \
+  "$DOTFILES/fastfetch" \
+  "$HOME/.config/fastfetch"
+
 # Starship
 link_file \
   "$DOTFILES/starship/starship.toml" \
