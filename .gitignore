@@ -1,2 +1,23 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs
 *.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / generated files
+*.swp
+*.swo
+
+# Caches
 .cache/
